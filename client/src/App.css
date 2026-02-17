@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.login-container {
+  height: 100vh;
+  background: linear-gradient(135deg, #6a9ff8, #dfe7f6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-box {
+  background: white;
+  padding: 40px;
+  width: 400px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 30px;
+}
+
+.role-selection {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.role {
+  flex: 1;
+  padding: 10px;
+  margin: 0 5px;
+  border: 2px solid #6a9ff8;
+  background: white;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.role.active {
+  background: #6a9ff8;
+  color: white;
+}
+
+.input-field {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.login-btn {
+  width: 100%;
+  padding: 12px;
+  background: #6798f3;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.divider {
+  margin: 20px 0;
+  position: relative;
+  text-align: center;
+}
+
+.divider span {
+  background: white;
+  padding: 0 10px;
+}
+
+.google-btn {
+  width: 100%;
+  padding: 12px;
+  background: white;
+  border: 2px solid black;
+  border-radius: 8px;
+  cursor: pointer;
+}
