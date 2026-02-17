@@ -1,3 +1,5 @@
+// models/Hall.js
+
 import mongoose from "mongoose";
 
 const hallSchema = new mongoose.Schema(
